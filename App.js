@@ -1,11 +1,28 @@
 
 import './App.css';
-import Header from './Header';
+
+
+// import { Routes,Route,Link } from 'react-router-dom';
+import Navbar from './Navbar';
+// import Homepage from './Homepage';
+// import Aboutus from './Aboutus';
+
+
+// function Logo(){
+//   return (<img src={youtubepng} alt='Logo' style={{backgroundColor:"blue"}}/>)
+// }
 
 function App() {
+//  function hoverkaro(){
+//     console.log("hovered");
+//     document.getElementsByTagName("li").style.backgroundColor="yellow";
+//     document.getElementsByTagName("li").style.color="black";
+//   }
+  
   return (
-    <div className="App">
-      <Header className="heading" title="howdy"/>
+    <div className="App" >
+      
+      <Navbar/>
     </div>
   );
 }
